@@ -1,0 +1,17 @@
+.routeMethodDefine .span5,
+.routeLibDefine .span5,
+.headersDefine .span3,
+.headersDefine .span2 {
+	background-color: #ECECEC;
+	border-radius: 3px 3px 3px 3px;
+	margin: 0 0 9px 20px;
+	padding: 5px 7px;
+}
+.routeLibDefine .span5,
+.headersDefine .span2{
+	margin: 0 0 9px 0;
+}
+code {
+  padding: 1px 2px;
+  white-space: nowrap;
+}

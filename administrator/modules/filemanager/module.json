@@ -1,0 +1,18 @@
+{
+	"module"				:	"File Manager",
+	"desc"					:	"file management",
+	"priority"				: 	"30",
+	"position"				:	"side",
+	"brand-icon"			:	"",
+	"sections"				:	{
+		"files"			:	{
+			"name"			:	"Browse",
+			"desc"			:	"Manage files",
+			"icon"			:	"code-folder",
+			"file"			:	"list-files.php",
+			"stylesheets"	:	[
+				"style.css"
+			]
+		}
+	}
+}

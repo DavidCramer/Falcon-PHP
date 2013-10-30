@@ -1,0 +1,56 @@
+{
+	"module"				:	"Actions",
+	"priority"				:	100,
+	"position"				:	"side",
+	"desc"					:	"some layout actions",
+	"brand-icon"			:	"A",
+	"scripts"				:	[
+		"actions.js",
+		"jquery.minicolors.js",
+		"bootbox.min.js"
+	],
+	"stylesheets"			:	[
+		"actions.css",
+		"jquery.minicolors.css"
+	],
+	"sections"				:	{
+		"widthtoggle"		:	{
+			"name"			:	"Toggle Nav",
+			"desc"			:	"Sets a wider nav menu",
+			"icon"			:	"expand",
+			"attributes"	: {
+				"request"	: false,
+				"target"	: false,
+				"callback"	: "toggleWidth",
+				"group"		: "toggle-actions",
+				"clear"		: null,
+				"active-class": "blank"
+			}
+		},
+		"hidemenus"			:	{
+			"name"			:	"Hide Menus",
+			"desc"			:	"Reduce the menus a little",
+			"icon"			:	"angle-right",
+			"attributes"	: {
+				"request"	: false,
+				"target"	: false,
+				"callback"	: "fullscreenToggle",
+				"group"		: "toggle-actions",
+				"clear"		: null,
+				"active-class": "blank"
+			}
+		},
+		"bodycolor"			:	{
+			"name"			:	"",
+			"desc"			:	"set primary color",
+			"icon"			:	"tasks",
+			"link"			: 	"#"
+		},
+		"loggoff"			:	{
+			"name"			:	"Log Out User",
+			"desc"			:	"logout",
+			"icon"			:	"off",
+			"link"			: 	"?logoff"
+		}
+	}
+}

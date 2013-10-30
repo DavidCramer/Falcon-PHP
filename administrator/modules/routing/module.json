@@ -1,0 +1,32 @@
+{
+	"module"				:	"Routing",
+	"desc"					:	"Build and define routing methods for the API",
+	"position"				:	"side",
+	"brand-icon"			:	"R",
+	"sections"				:	{
+		"routes"			:	{
+			"name"			:	"Routes",
+			"desc"			:	"Manage routes",
+			"icon"			:	"code-fork",
+			"file"			:	"list-routes.php",
+			"stylesheets"	:	[
+				"routing.css"
+			],
+			"scripts"		:	[
+				"routing.js"
+			]
+		},
+		"methods"		:	{
+			"name"			:	"Method Files",
+			"desc"			:	"Manage method files",
+			"icon"			:	"code",
+			"file"			:	"list-methods.php",
+			"scripts"		:	[
+				"methods.js"
+			],
+			"attributes"	: {
+				
+			}
+		}
+	}
+}

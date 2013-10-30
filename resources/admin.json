@@ -1,0 +1,84 @@
+[
+	{
+		"name"      : "admin/",
+		"desc"      : "Caldera Falcon",
+		"libraries" : [
+			"administrator/functions.php"
+		],        
+		"methods"   : 
+			{
+				"GET" : {
+					"file"	: "administrator/main.php"
+				}
+			}
+	},{
+		"name"      : "admin/login/",
+		"desc"      : "Administration Area Login",
+		"methods"   : 
+			{
+				"POST" : {
+					"file"	: "administrator/login-process.php"
+				}
+			}
+	},{
+		"name"      : "admin/module/:module/:section",
+		"desc"      : "Loads the Module Main List",
+		"methods"   : 
+			{
+				"GET" : {
+					"file"	:	"administrator/load-module.php"
+				},
+				"POST" : {
+					"file"	:	"administrator/load-module.php"
+				}
+			}
+	},{
+		"name"      : "admin/module/:module/:section/:method",
+		"desc"      : "Loads the Module Main List",
+		"methods"   : 
+			{
+				"GET" : {
+					"file"	:	"administrator/load-module.php"
+				},
+				"POST" : {
+					"file"	:	"administrator/load-module.php"
+				}
+			}
+	},{
+		"name"      : "admin/load-route/:index",
+		"desc"      : "load route at index",
+		"methods"   : 
+			{
+				"GET" : {
+					"file"	:	"administrator/load-route.php"
+				},
+				"POST" : {
+					"file"	:	"administrator/load-route.php"
+				}			
+			}
+	},{
+		"name"      : "admin/methods",
+		"desc"      : "Lists the method files",
+		"methods"   : 
+			{
+				"GET" : {
+					"file"	:	"administrator/list-methods.php"
+				},
+				"POST" : {
+					"file"	:	"administrator/list-methods.php"
+				}
+			}
+	},{
+		"name"      : "admin/load-method/:methodfile",
+		"desc"      : "loads a method file for editing",
+		"methods"   : 
+			{
+				"GET" : {
+					"file"	:	"administrator/load-file.php"
+				},
+				"POST" : {
+					"file"	:	"administrator/load-file.php"
+				}
+			}
+	}
+]

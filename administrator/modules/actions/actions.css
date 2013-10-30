@@ -1,0 +1,31 @@
+#olist {
+    -webkit-transition	: top 280ms, margin 180ms ease 280ms, width 180ms ease 280ms;
+    -moz-transition		: top 280ms, margin 180ms ease 280ms, width 180ms ease 280ms;
+    -o-transition		: top 280ms, margin 180ms ease 280ms, width 180ms ease 280ms;
+    transition			: top 280ms, margin 180ms ease 280ms, width 180ms ease 280ms;	
+}
+
+.wide #list {
+  width: 300px;
+}
+.wide #list-content {
+  width: 300px;
+}
+.wide #main {
+  margin-left: 450px;
+}
+.wide .CodeMirror {
+  margin-left: 451px;
+}
+.wide.full-screen #main{
+  margin-left: 330px;
+}
+.wide.full-screen #main .CodeMirror{
+  margin-left: 331px;
+}
+.full-screen #actions-bodycolor {
+  display: none;
+}
+.full-screen #list .item:first-child .nav-header {
+  border-radius: 0;
+}
